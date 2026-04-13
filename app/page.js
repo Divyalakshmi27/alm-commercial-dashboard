@@ -308,7 +308,7 @@ export default function DashboardPage() {
       <div className="sidebar glass-panel" style={{ overflowY: 'auto' }}>
         <div className="brand" style={{ color: 'var(--text-main)' }}>
           <div className="brand-icon"><Activity size={20} color="white" /></div>
-          <div>NIMOS</div>
+          <div>Decision OS</div>
         </div>
 
         <div className="glass-panel-header" style={{ marginBottom: '16px' }}>

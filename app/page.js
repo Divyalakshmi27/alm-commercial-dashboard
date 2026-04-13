@@ -89,7 +89,7 @@ export default function DashboardPage() {
   // Login handler
   const handleLogin = (e) => {
     e.preventDefault();
-    if (email === 'basis@nestle.com' && password === 'nimos_admin@2026') {
+    if (email === 'basis@nestle.com' && password === 'admin@2026') {
       setIsLoggedIn(true);
       setLoginError('');
     } else {

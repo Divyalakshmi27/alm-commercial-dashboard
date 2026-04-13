@@ -269,7 +269,7 @@ export default function DashboardPage() {
           <div className="brand-icon" style={{ width: '48px', height: '48px' }}>
             <Activity size={28} color="white" />
           </div>
-          <div>NIMOS</div>
+          <div>Decision OS</div>
         </div>
         <div className="login-box">
           <h2 style={{ marginBottom: '24px', textAlign: 'center' }}>Enterprise Login</h2>

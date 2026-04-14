@@ -19,7 +19,7 @@ const CustomTooltip = ({ active, payload, label }) => {
         <p className="label">{`Price: $${Number(label).toFixed(2)}`}</p>
         <div className="tooltip-item">
           <span style={{ color: 'var(--accent-cyan)' }}>Profit:</span>
-          <span>{formatCurrency(payload[0].value)}</span>
+          <span style={{ color: 'var(--text-main)' }}>{formatCurrency(payload[0].value)}</span>
         </div>
       </div>
     );
@@ -34,7 +34,7 @@ const CustomTooltipPromo = ({ active, payload, label }) => {
         <p className="label">{`Promo: ${Number(label)}%`}</p>
         <div className="tooltip-item">
           <span style={{ color: 'var(--accent-purple)' }}>Profit:</span>
-          <span>{formatCurrency(payload[0].value)}</span>
+          <span style={{ color: 'var(--text-main)' }}>{formatCurrency(payload[0].value)}</span>
         </div>
       </div>
     );
